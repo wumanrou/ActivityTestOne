@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityTestOne</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_welcome">Welcome!</string>
+    <string name="btn_welcome">欢迎</string>
+    <string name="str_0">0</string>
+    <string name="str_1">1</string>
+    <string name="str_2">2</string>
+    <string name="str_3">3</string>
+    <string name="str_4">4</string>
+    <string name="str_5">5</string>
+    <string name="str_6">6</string>
+    <string name="str_7">7</string>
+    <string name="str_8">8</string>
+    <string name="str_9">9</string>
+    <string name="str_jia">+</string>
+    <string name="str_jian">-</string>
+    <string name="str_cheng">*</string>
+    <string name="str_chu">/</string>
+    <string name="str_deng">=</string>
+    <string name="str_dian">.</string>
+    <string name="str_clear">Clear</string>
+    <string name="str_backspace">Backspace</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

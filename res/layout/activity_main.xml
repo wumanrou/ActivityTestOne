@@ -1,0 +1,258 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvC1"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_1"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvC2"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_2"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvC3"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_3"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvJia"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_jia"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_below="@+id/L1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvC4"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_4"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvC5"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_5"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvC6"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_6"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvJian"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_jian"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    
+      <LinearLayout
+        android:id="@+id/L3"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/L2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvC7"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_7"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvC8"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_8"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvC9"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_9"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvCheng"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_cheng"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/L4"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/L3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvC0"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_0"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvDian"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_dian"
+            android:textSize="22sp" />
+
+       <TextView
+            android:id="@+id/tvChu"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_chu"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/L5"
+        android:layout_below="@+id/L4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvClear"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_clear"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvBackspace"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_backspace"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvDeng"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@color/peachpuff"
+            android:gravity="center"
+            android:text="@string/str_deng"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+     <EditText
+         android:id="@+id/etResult"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:ems="10"
+         android:inputType="numberDecimal" >
+
+         <requestFocus />
+     </EditText>
+
+</RelativeLayout>
+      
